@@ -1,0 +1,29 @@
+body{
+    background-color: #fff;
+}
+
+.app{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.covidImage{
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+@media only screen and (max-width: 770px) {
+    .app {
+      margin: 0 10%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .covidImage {
+      width: 100%;
+      margin-left: 0;
+    }
+  }

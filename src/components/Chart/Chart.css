@@ -1,0 +1,15 @@
+.charts{
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 770px) {
+    .charts{
+        width: 100%;
+        margin-left: -10px;
+    }
+}
+
